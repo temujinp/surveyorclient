@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="personHome" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : Home"></put-attribute>
+        <put-attribute name="body" value="/views/person/personHome.jsp"></put-attribute>
+    </definition>    
+    <definition name="personCreate" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : Create"></put-attribute>
+        <put-attribute name="body" value="/views/person/personCreate.jsp"></put-attribute>
+    </definition>    
+    <definition name="personListEdit" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : List Edit"></put-attribute>
+        <put-attribute name="body" value="/views/person/personListEdit.jsp"></put-attribute>
+    </definition>      
+    <definition name="personEdit" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : Edit"></put-attribute>
+        <put-attribute name="body" value="/views/person/personEdit.jsp"></put-attribute>
+    </definition>        
+    <definition name="personListView" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : List View"></put-attribute>
+        <put-attribute name="body" value="/views/person/personListView.jsp"></put-attribute>
+    </definition>   
+    <definition name="personView" extends="base.definition">
+        <put-attribute name="title" value="Business :: Person : Vew"></put-attribute>
+        <put-attribute name="body" value="/views/person/personView.jsp"></put-attribute>
+    </definition>        
+</tiles-definitions>
